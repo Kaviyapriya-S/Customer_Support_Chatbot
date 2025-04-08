@@ -1,0 +1,10 @@
+flask
+sentence-transformers
+transformers
+torch
+SpeechRecognition
+pyttsx3
+nltk
+Pillow
+pyaudio
+flask sentence-transformers

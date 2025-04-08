@@ -1,0 +1,68 @@
+
+
+
+#How to Use Zoho Books Invoices
+ Creating an Invoice
+1. Go to **Sales → Invoices**.
+2. Click **+ New** in the top right corner.
+3. Fill in details like customer name, items, taxes, and payment terms.
+4. Save and send the invoice to your customer.
+
+# Editing an Invoice
+1. Go to **Sales → Invoices**.
+2. Select the invoice you want to edit.
+3. Click **Edit** and make the necessary changes.
+4. Save the updated invoice.
+
+# Sending an Invoice
+1. Go to **Sales → Invoices**.
+2. Select the invoice you want to send.
+3. Click **Mail / SMS** and choose the method (email, SMS, or snail mail).
+4. Send the invoice to your customer.
+
+# Recording Payments
+ Online Payments
+1. Integrate Zoho Books with a payment gateway (e.g., PayPal, Razorpay).
+2. When creating an invoice, select the preferred payment gateway.
+3. Customers can pay via email, invoice link, or Customer Portal.
+
+# Charging a Customer’s Card
+1. Go to **Sales → Invoices**.
+2. Select the invoice and click **Record Payment > Charge Customer**.
+3. Enter the amount and payment gateway details.
+4. Process the payment.
+
+# Recording Offline Payments
+1. Go to **Sales → Invoices**.
+2. Select the invoice and click **Record Payment > Record Offline Payment**.
+3. Enter payment details (amount received, date, deposit account).
+4. Save the payment.
+
+# Bill of Supply
+#What is a Bill of Supply?
+A Bill of Supply is issued by GST-registered businesses for exempted goods or under the Composition Scheme.
+
+#How to Create a Bill of Supply
+1. Go to **Settings > Preferences > General** and enable the Bill of Supply option.
+2. Go to **Sales > Invoices > New Bill of Supply**.
+3. Add customer details and other necessary information.
+4. Save and send the Bill of Supply.
+
+# Payments Received
+1. View payments received under **Sales > Payments Received**.
+2. Edit or delete payments if needed.
+3. Add custom fields for additional details.
+
+
+# Exporting and Bulk Actions
+1. **Export Invoices**: Export invoices in CSV, XLS, or XLSX formats.
+2. **Bulk Update**: Update multiple invoices at once.
+3. **Download as ZIP**: Download multiple invoices as individual PDFs in a ZIP file.
+
+# Additional Features
+1. **Discounts**: Apply discounts at the item level or invoice level.
+2. **Shipping Charges and Adjustments**: Add these below the item table.
+3. **Clone Invoices**: Duplicate existing invoices for similar transactions.
+4. **Attach Files**: Attach up to 5 files (5MB each) to invoices.
+5. **Void or Write Off Invoices**: Void invoices to remove them from reports or write off unpaid invoices.
+
