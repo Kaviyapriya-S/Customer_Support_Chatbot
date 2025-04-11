@@ -1,184 +1,1161 @@
-#How to Use Zoho Books Invoices
- Creating an Invoice
-1. Go to **Sales → Invoices**.
-2. Click **+ New** in the top right corner.
-3. Fill in details like customer name, items, taxes, and payment terms.
-4. Save and send the invoice to your customer.
-# Editing an Invoice
-1. Go to **Sales → Invoices**.
-2. Select the invoice you want to edit.
-3. Click **Edit** and make the necessary changes.
-4. Save the updated invoice.
-# Sending an Invoice
-1. Go to **Sales → Invoices**.
-2. Select the invoice you want to send.
-3. Click **Mail / SMS** and choose the method (email, SMS, or snail mail).
-4. Send the invoice to your customer.
-# Recording Payments
- Online Payments
-1. Integrate Zoho Books with a payment gateway (e.g., PayPal, Razorpay).
-2. When creating an invoice, select the preferred payment gateway.
-3. Customers can pay via email, invoice link, or Customer Portal.
-# Charging a Customer’s Card
-1. Go to **Sales → Invoices**.
-2. Select the invoice and click **Record Payment > Charge Customer**.
-3. Enter the amount and payment gateway details.
-4. Process the payment.
-# Recording Offline Payments
-1. Go to **Sales → Invoices**.
-2. Select the invoice and click **Record Payment > Record Offline Payment**.
-3. Enter payment details (amount received, date, deposit account).
-4. Save the payment.
-# Bill of Supply
-#What is a Bill of Supply?
+Q: Forgot Password?
+A: to reset it.
+
+Q: Problem signing in?
+A: Sign in another way
+
+Q: Can't access your device?
+A: Use backup verification code
+
+Q: ???IAM.NEWSIGNIN.VERIFY.SEC.FACTOR???
+A: Configured authentication modes like MFA mobile OTP, Authenticator app, Physical Key or Back-up verification code.
+
+Q: Trust this browser?
+A: Trust
+
+Q: Don't have a Zoho account?
+A: Sign up now
+
+Q: Already have a Zoho account?
+A: Sign In
+
+Q: I haven’t used my organization for a while. What happens to the data?
+A: According to our
+
+Q: How do I change the customer’s name on an invoice that’s already billed?
+A: To change your customer’s name for an invoice:
+
+Q: How do I display my customer’s tax information on my invoice?
+A: To display your customerâs tax information on the invoices:
+
+Q: My items are not being shown when I export my invoices as PDF. Why is that?
+A: Can I delete an item? It shows me an error message when I try.
+
+Q: Does Zoho Invoice support barcode scanning? If yes, how does it work?
+A: Yes, Zoho Invoice supports barcode scanning in the web app, as well as the Android mobile app. Here is how it works in the web app:
+
+Q: I want to change Quote to Proforma Invoice in PDFs. How do I do that?
+A: You can change Quote to a different name in PDFs like Estimate or Proforma Invoice by editing the PDF template. To change the name:
+
+Q: What do I do when the emails I send to my customers are undelivered?
+A: The emails you send to your customers could be undelivered due to various bounce issues like relaying issues, bad mailbox, etc. In that case, you will get an email from us stating that the email is undelivered, and the bounce details will be displayed below, along with the Bounce Reason.
+
+Q: How do I issue a refund for returned goods?
+A: You can issue a refund for returned goods by:
+
+Q: How do I record the commissions I pay to my sales employee?
+A: Forums
+
+Q: Can I customize the portal invitation mail content?
+A: Yes, you can. Here’s how:
+
+Q: Can my customers save their card details in the customer portal?
+A: Yes, It is possible to save card details in the customer portal.
+
+Q: How do I record a credit card payment?
+A: Payments received through credit cards can be recorded in Zoho Invoice in multiple ways:
+
+Q: How do I delete invoice payments that have already been recorded?
+A: Payments associated to an invoice can be deleted even after they’re recorded in Zoho Invoice. To do this:
+
+Q: How do I configure the recipients of the automated payment reminders I send?
+A: To configure the recipients for the automated payment reminders:
+
+Q: How do I sell items at rates inclusive and/or exclusive of tax?
+A: To sell items at rates inclusive and/or exclusive of tax:
+
+Q: How do I add new fields to invoices for specifying additional information?
+A: To add new fields to your invoice, all you need to do is set up custom fields in your Settings. To create a custom field, follow the steps below:
+
+Q: How can I change the format of my organization/customer address?
+A: To change the format of organization’s address, follow the steps below:
+
+Q: How do I change the page orientation of my PDF?
+A: To change the page orientation of your PDF, follow the below steps.
+
+Q: How do I change my invoice template’s language?
+A: To change your invoice’s template language:
+
+Q: How do I view my profits and losses as a report?
+A: No, you cannot view your profits and losses as a report in Zoho Invoice as creation of accounts is not supported. However, you can try our accounting solution,
+
+Q: Can I add bulk time entries?
+A: Yes, in Zoho Invoice you can add bulk time entries for projects and tasks,
+
+Q: How many projects can be created in Zoho Invoice?
+A: At the moment, you can create up to three (3) projects in Zoho Invoice. To create more projects, check out our billing solution,
+
+Q: Can I integrate more than one Zoho Books/Zoho Invoice organization with one Zoho CRM account?
+A: You can integrate one Zoho Invoice organization with Zoho CRM using two way sync and you can integrate other Zoho Invoice organizations using one way sync.
+
+Q: What is the use of a workflow trigger?
+A: Zoho Invoice - G Suite Integration
+
+Q: How can I access Zoho Invoice from my G Suite account?
+A: You will need to integrate Zoho Invoice with G Suite , before you can access it from your G Suite account.
+
+Q: How do I integrate my Zoho Invoice organization with third-party apps like HubSpot?
+A: To integrate Zoho Invoice with third-party apps, you can try
+
+Q: How do I know the overall sales and revenue made in this financial year?
+A: You can view theÂ
+
+Q: Do my customersâ balances get carry forwarded to the next financial year automatically?
+A: Forums
+
+Q: Can I use Zoho Invoice for free?
+A: Yes, you can!
+
+Q: Was this document helpful?
+A: Enter your comments or feedback on this page
+
+Q: Umm.. where do we send the response?
+A: By clicking
+
+Q: How do I backup my data?
+A: To backup all the data of your Zoho Invoice account, kindly follow the below mentioned steps:
+
+Q: Is it possible to change the email address with which I access my Zoho Invoice account?
+A: Yes, you can change the email address with which you access your Zoho Invoice account. You might want to change the email address due to either of the following cases.
+
+Q: Why am I not able to send invoices, quotes, etc. when I use an AOL email address as my primary email address?
+A: If you create your Zoho Invoice account using an AOL email address, you won’t be able to send invoices, quotes to your customers as AOL’s DMARC policy does not allow Zoho Invoice to send emails on behalf of users/businesses using AOL addresses.
+
+Q: How do I add my companyâs logo so that it appears on all my invoices?
+A: To make your logo visible on your invoice, you will have to upload your logo in the Organization Profile. To upload:
+
+Q: I forgot the password for my Zoho Invoice account. How do I reset it?
+A: Click on the
+
+Q: I have two organizations in Zoho Invoice. How do I transfer data between both the organizations?
+A: While it is not possible to automatically transfer data between two organizations, you can manually export data from one organization and import it into the other.
+
+Q: I created two organizations under different email accounts.How do I bring both the organizations so that I can manage them under a single account?
+A: Zoho Invoice allows you to manage multiple organizations under a single account. If you’ve mistakenly created two accounts to create two organizations, you can bring them together under a single account by following the below mentioned steps:
+
+Q: How do I reset my organization?
+A: No, it is not possible to reset your Zoho Invoice organization. However, you can delete your existing organization and create a new one.
+
+Q: How do I add a user in my organization?
+A: Zoho Invoice allows you to create upto two users under an account. If you would like to add more than two users, you can consider upgrading to our billing platform,
+
+Q: When do I get in-app notifications in Zoho Invoice?
+A: The
+
+Q: What are the benefits of upgrading from Zoho Invoice to Zoho Billing?
+A: Zoho Invoice was designed to be forever-free and cater to the needs of small businesses by offering essential invoicing features. As your business expands, you will need a system that’s capable of scaling up, managing increased workloads, and adapting to advanced requirements.
+
+Q: How do I upgrade from Zoho Invoice to Zoho Books?
+A: If you are looking for software that can do more than just invoicing and wish to get a broader perspective of your company’s finances, you should upgrade to Zoho Books.
+
+Q: What is Multi-Factor Authentication (MFA) and how do I enable it for my Zoho Invoice account?
+A: Zoho supports Single Sign-On (SSO), which means you can access any service with a single sign-in and credentials. Additionally, it supports Multi-factor Authentication that adds a layer of security while signing in to your accounts. The different MFA modes that are currently supported are
+
+Q: How do I create and manage multiple organizations in Zoho Invoice?
+A: Zoho Invoice allows you to create up to two organizations under a single Zoho account.
+
+Q: How do I change the date format for my organization?
+A: To change the date format for your organization:
+
+Q: I want to use X edition of Zoho Invoice keeping Y as my country. Is it possible?
+A: The Country, Base Currency and Timezone cannot be changed if you are using a country specific edition.
+
+Q: My Zoho Invoice account is currently linked with G Suite. I would like to disable the G Suite integration and want to access my account using a simple username and password. How do I do it?
+A: To sign in directly, you must set up a Zoho username and password. To set up a Zoho account, please follow the instructions below:
+
+Q: How do I resend a verification email to associate an email ID to an organization?
+A: You can resend a verification email for your Zoho Invoice account by following these steps,
+
+Q: How do I prevent others from editing the PDF files that are being sent from Zoho Invoice?
+A: Zoho Invoice comes with an option to encrypt all your PDF files that are being sent from Zoho Invoice. Enabling this option will prevent the user from editing the document or converting it into other file formats.
+
+Q: How do I change the primary email address that is used to access my Zoho Invoice account?
+A: You can change the primary email address of your account by adding a new email address and deleting the existing one. To add a new email address to your account:
+
+Q: What happens when I import the same file twice in Zoho Invoice? Will the already existing data get overwritten?
+A: When you import the same file twice, the entries of the file won’t replace the already existing files. Instead, it skips the existing entries and imports the ones that are new.
+
+Q: Is it possible to add SPF and DKIM records to validate transactional emails from Zoho Invoice?
+A: Yes. You can include
+
+Q: Can we use an external SMTP to send emails from Zoho Invoice?
+A: No. Currently we do not have an option to use external SMTP to send emails from our service.
+
+Q: How do I change the theme of my organization?
+A: To change the theme of your organization, kindly follow the instructions below:
+
+Q: I have three organizations under a parent organization. Will I be able to create individual organizations and monitor their activities in one place?
+A: You can create multiple organizations in Zoho Invoice and switch between them whenever necessary. But, you cannot monitor the activities of all the organizations in one place. This feature is currently not available in Zoho Invoice.
+
+Q: How do I manage two stores with different names and addresses in Zoho Invoice?
+A: To manage two stores with different names and addresses, you can create another new organization apart from the existing one. Learn how you can
+
+Q: Can I track the notification emails sent to my customers?
+A: Yes, you can track the emails that are sent for quotes and invoices with the help of the
+
+Q: Can I change my base currency?
+A: No, you will not be able to change the base currency as it is determined based on your
+
+Q: Can I invoice my customers in a different currency instead of my base currency?
+A: No, you can invoice your customers only using your base currency in Zoho Invoice. However, you can try our billing platform,
+
+Q: How many invoices can I create for free?
+A: Zoho Invoice is completely free, but the number of invoices you can create is subject to usage limits that are updated every year. To view the total number of invoices you can create, and how many remain, you can go to your Zoho Invoice organization’s
+
+Q: How many users can I create?
+A: The number of users you can create in Zoho Invoice is subject to usage limits that are updated every year. To view the total number of users you can create, and how many remain, you can go to your Zoho Invoice organization’s
+
+Q: How can I edit my company or organization details?
+A: To edit/update your organization details:
+
+Q: How do I create purchase transactions in Zoho Invoice?
+A: Zoho Invoice does not support purchase modules like Vendors, Purchase Orders, Bills, Vendor Credits, and more, where you can record and track the goods/services you’ll order for your business. However, if you want to record the expenses incurred in your business, you can record them in the
+
+Q: Can I use Zoho Invoice offline?
+A: Currently, Zoho Invoice cannot be accessed offline. You’ll have to be connected to the internet to access the app.
+
+Q: How do I change or upgrade my Zoho Invoice organization to a paid plan or subscription?
+A: Zoho Invoice does not offer paid plans through subscriptions, as it operates on a forever free plan. However, if you want access to additional features through a subscription, you can explore our billing platform,
+
+Q: How can I access the extensions supported by Zoho Invoice in Zoho Marketplace?
+A: You can easily view the extensions that are available for Zoho Invoice and install them from the Zoho Marketplace.
+
+Q: Can I create two Zoho Invoice organizations for free?
+A: Yes, you can create up to two organizations for free with your Zoho account.
+
+Q: How do I change the language?
+A: To change your organizationâs language:
+
+Q: Where can I watch a video tutorial on creating invoices in Zoho Invoice?
+A: Learn how you can create invoices, send them to your customer, and record payment for them by watching this
+
+Q: How do I contact support for personal assistance?
+A: If you have any queries and need personal assistance or want to connect with a customer support representative, feel free to write to us at
+
+Q: How do I add my mobile number to my Zoho Invoice account and verify it?
+A: To add and verify your mobile number:
+
+Q: What is the maximum number of files and the maximum size of each file that I can upload for transactions, the customer portal, signature, and the organization logo?
+A: You can upload a maximum of 3 files in each module.
+
+Q: Did you find this helpful?
+A: Yes
+
+Q: How can I add new fields to my customers?
+A: You can add up to 3 custom fields for your customers to specify any additional information you want to.
+
+Q: How can I associate personalized templates to my customers?
+A: Templates can be broadly classified into PDF templates (transactions PDFs) and Email templates (email notifications). They can be created and modified under
+
+Q: How do I add a secondary email address to my customers?
+A: You can add only one email address for your customers. You can, however, associate a secondary email address to the customer in the form of a (subsidiary) contact person. To do this,
+
+Q: How many contact persons can I add to a customer?
+A: You can add up to 2 contact persons for a particular customer. Here’s how you can add additional contact persons:
+
+Q: How can I sync selective accounts/contacts from Zoho CRM into Zoho Invoice?
+A: If you want to import a few selective accounts/contacts from Zoho CRM to Zoho Invoice, you can create a new
+
+Q: I added a customized field to my client’s contact info, but I can’t get it to show on the invoice. How do I do it?
+A: Let’s take an example where you are adding a custom field named ‘VAT#’ to one of your client’s contact info, and you want that to be displayed on the invoice. To do so, follow the below mentioned steps:
+
+Q: How do I assign a user to handle all the transactions for certain customers?
+A: You might have a lot of regular customers for whom you wish to give a great service. To do so, you can assign one of your employees to exclusively take care of the customer’s transactions and other information.
+
+Q: Can I have duplicates of customers with the same display name?
+A: Yes, you can have duplicate customers with the same display name.
+
+Q: How do I create a new transaction for a customer?
+A: You can create transactions for a customer by following these steps.
+
+Q: How can I merge customers?
+A: Remember that transactions associated with customers, once merged, will be listed under the master customer’s transactions. Customers that are being merged must contain the same currency terms. Such customers can be merged in two ways,
+
+Q: Can I delete a customer?
+A: Yes, you can.
+
+Q: How do I filter my customers?
+A: Customers can be filtered and viewed in two ways, either according to
+
+Q: How can I view CRM contacts under the customers section in Zoho Invoice?
+A: You can view the contacts imported from Zoho CRM into Zoho Invoice by opening the customers tab and selecting
+
+Q: While importing âAccounts and its Contactsâ from Zoho CRM, how do I mark a Zoho CRM contact as a primary contact in Zoho Invoice?
+A: The first step would be to create a custom field for Contacts in Zoho CRM. To create a custom field,
+
+Q: If I modify the address of my customer, will that reflect in the invoices that have already been created for that customer?
+A: No. The changes will not reflect in the invoices that have already been created. Invoices that are created after the change will have the new address .
+
+Q: I am doing business with a customer who prefers to communicate in Spanish. How do I get the invoices, estimates, reminders, etc. to be in Spanish?
+A: In Zoho Invoice, you can associate a language to a customer. This includes:
+
+Q: Would you like to add time-based action?
+A: option.
+
+Q: How do I delete the card details associated to a customer?
+A: To delete the card details:
+
+Q: How to view only those customers that are associated with payment options?
+A: Go to the
+
+Q: I’m trying to generate a ledger for a specific customer in my organization from January 2023 up to the current date. How do I do that in Zoho Invoice?
+A: Zoho Invoice allows you to generate a ledger for any customer in your organization with the help of the
+
+Q: Where do I print the Customer Statement?
+A: To print the customer statement:
+
+Q: How do I add a bank account specifically for a particular customer?
+A: Prerequisite:
+
+Q: Items | Will tax be calculated for each item when I invoice my customer?
+A: x
+
+Q: Will tax be calculated for each item when I invoice my customer?
+A: When you create an invoice with multiple items, the total tax liable is calculated on the
+
+Q: Can I provide an item name in various languages?
+A: Yes, you can enter the name of your item in any language/script as required. However,
+
+Q: When I export my invoices as PDF, my items are not shown. Why is that?
+A: If you’re using foreign characters (such as Chinese, for example) on your invoice, you
+
+Q: I want to add more than one tax to an item. How do I do this?
+A: This can be done by adding the multiple taxes under a tax group before associating it to the item.
+
+Q: Is it possible to sync my CRM products in Zoho Invoice?
+A: Yes, Zoho CRM-Zoho Invoice integration supports two way product sync.
+
+Q: I get the error message “File contains empty string as column header(s). Please check the content and try again.” when I try to import a .csv or a .xls file. What should I do?
+A: The error may be caused because of an additional separator (Comma in the case of a CSV file, Tab in the case of a TSV file) or an empty column present on a particular line. Remove the separator and empty columns and save the file. Finally, import the file into Zoho Invoice, match the corresponding fields and it should work perfectly fine.
+
+Q: Can I upload images and add SKU information to my items?
+A: Yes, you can upload images and add SKU information to your items.
+
+Q: I would like to provide additional information about my item and display them on my invoices. How do I do that?
+A: The default input fields you come across while creating an item such as the item name, price, etc. is designed to capture information that is common to all businesses. But, apart from the available fields, you would want to store additional information that is unique to your business. Custom fields for items will allow you to do that.
+
+Q: How do I provide default customer notes, terms & conditions on my quotes? How do I retain these on the converted invoice?
+A: To set a default customer notes and terms & conditions for the estimates created,
+
+Q: Can accepted quotes be automatically converted to invoices??
+A: To automatically convert accepted estimates to invoices,
+
+Q: How do I check if my customer has viewed the quote/invoice that I’ve sent them?
+A: To check if your customer has viewed the quote/invoice you sent, you need to have customer portal enabled for your customer.
+
+Q: How do I change the billing/shipping address of a customer in a quote?
+A: Note:
+
+Q: How can I add specific custom fields to my quotes?
+A: To add custom fields to your quotes, kindly follow the below mentioned steps:
+
+Q: Can I pull multiple expenses to an invoice?
+A: Yes, you can.
+
+Q: How can I convert a quote to an invoice?
+A: To convert a quote to an invoice, follow the below steps.
+
+Q: Who is a sales person? How can I track sales made by a sales person?
+A: A sales person refers to the person assigned to that particular invoice, and will represent you in all the transactions that take place with that particular customer. When you generate reports to review your overall business for a particular period of time, you can choose to view the sales break up according to how many sales each person has carried out, which could be useful while deciding incentives and bonuses.
+
+Q: How can I associate a sales person with a particular invoice?
+A: Firstly, enable sales person field from
+
+Q: How do I mark a draft as a sent invoice?
+A: Once you send a drafted invoice through Zoho Invoice, its status is automatically changes to
+
+Q: How do I turn off/on auto generation of invoice numbers?
+A: To turn on/off auto generation of invoice numbers, click on the tiny settings button right next to the field
+
+Q: How do I change the email address from which invoices are sent to my customers/clients?
+A: To change/update the sender email address:
+
+Q: How do I check if my client has viewed the estimate/invoice that I’ve sent him?
+A: If you’ve enabled the
+
+Q: How do I customize my invoice?
+A: Go to
+
+Q: Can I move invoices from one organization to another, if they are under the same account?
+A: No, it is not possible.
+
+Q: Can I provide discounts at the invoice level?
+A: Yes, you can provide discounts at the invoice level. Here’s how:
+
+Q: Do you give discounts?
+A: section.
+
+Q: I give a discount of 10% on the Invoice Amount if my customers pay within a particular date. How can I record this discount in Zoho Invoice?
+A: Let us consider an example where you create an invoice on 20th July. You mention in the Customer Notes section that if the customer pays before 25th July, he/she gets a discount of 10% on the invoice amount i.e. if the invoice amount is $100, the customer gets a discount of $10 and he/she will need to pay only $90.
+
+Q: A client has paid $200 as down-payment towards the purchase of a new television. How do I record this transaction in Zoho Invoice?
+A: Click on
+
+Q: How do I record partial payment against an invoice?
+A: Recording partial payments against an invoice can be done in two ways: When you manually record payments for your invoices, and when customers pay for their invoices through an online payment gateway.
+
+Q: How do I remove the Zoho branding or watermark from my invoice’s footer?
+A: Zoho Invoice is a free app and includes Zoho branding to help spread the word and support other growing businesses. So, the Zoho branding cannot be removed. However, if you would still like to send invoices without the Zoho branding, you can upgrade to our billing solution,
+
+Q: How do I add a QR code to my invoice?
+A: You can add a QR code to your invoice once you enable it. To enable the QR code option:
+
+Q: How do I create a recurring invoice? How do I make an existing invoice recurring?
+A: A
+
+Q: What are the different options to create and send recurring invoices to my customers?
+A: Follow these steps to customize how and when recurring invoices are sent out.
+
+Q: How can I add a date to the description field while sending a recurring invoice?
+A: You can add a date to the description field of each item, to specify start and end date of the recurring invoice. To do this, simply go to the item field, and start introducing the necessary placeholders in the
+
+Q: How do I sort recurring invoices?
+A: Recurring invoices can be sorted under three categories - ‘active’, ‘expired’, and ‘stopped’.
+
+Q: How do I clone an invoice?
+A: Follow these steps to clone your invoice,
+
+Q: What are the various ways I can sort my estimates and invoices in? Where can I do this?
+A: To sort estimates and invoices, follow the below steps.
+
+Q: How do I generate and print a delivery note in Zoho Invoice?
+A: To generate and print a delivery note for your invoice, follow the steps mentioned below:
+
+Q: How do I monitor the status of my estimates/invoices?
+A: It’s possible to view the real time status of all your estimates and invoices. To do this, go to the estimate/invoice column which can be found on the panel to the left on the Home page of Zoho Invoice, and select the drop down to view the status divisions.
+
+Q: How do I import/export invoices?
+A: Go to the invoices module.
+
+Q: How do I import data from a different software?
+A: You can import data for the following modules in Zoho Invoice:
+
+Q: How do I add my bank details to invoices to receive payments directly into my bank account?
+A: To display your bank account details in your invoices:
+
+Q: How do I modify or update my bank account number to receive payment for my invoices?
+A: To modify or update your bank account number:
+
+Q: Where can I enter the tax withheld while recording payments?
+A: When you send an invoice to a customer, you can enter the tax withheld while recording the payment manually.
+
+Q: Tax Deducted?
+A: and enter the amount in the
+
+Q: How many files can I attach to each transaction?
+A: For each transaction, a maximum of 3 attachments (5 MB each) can be added at the time of creating/editing a transaction. Please follow the instructions below:
+
+Q: How to avoid payment notification emails landing into spam?
+A: If you’re using your own email domain,
+
+Q: CanÂ I schedule a regular invoice to be sent out at a later date automatically?
+A: Yes, you can.
+
+Q: Can I do e-invoicing in Zoho Invoice?
+A: At the moment, e-invoicing is not supported in Zoho Invoice. You can try
+
+Q: When do I need to use a credit note?
+A: Credits represent the money that you owe your customer, and this can be tracked in the
+
+Q: How do I delete a credit note that has already been closed?
+A: A closed credit note implies that the amount due to the customer has been paid, either through a
+
+Q: When do I mark an expense as billable?
+A: When your company incurs operational expenses while selling a product/service to your customers(For example, Shipping Costs), it is marked as billable. This is done so that the company could bill the customer and get it reimbursed.
+
+Q: Can I add a new category if needed?
+A: Yes, you can.
+
+Q: How do I raise an invoice for a billable expense?
+A: To raise an invoice for a billable expense, kindly follow the steps mentioned below:
+
+Q: How do I mark an expense category as Active/Inactive?
+A: To mark an expense category as active/inactive:
+
+Q: How do I attach receipts from Google Drive while recording an expense?
+A: With Zoho Invoice, you can easily attach receipts from popular cloud storage services such as Zoho Docs, Google Drive, Box, One Drive and Evernote.
+
+Q: How do I add a new mileage rate?
+A: To add a new mileage rate:
+
+Q: How do I create a new Mileage Expense?
+A: You can create a mileage expense by following the instructions below:
+
+Q: I’m not sure about how to calculate the mileage using the odometer reading. How do I do it?
+A: It’s really simple. All you have to do is enter the
+
+Q: How do I track my mileage?
+A: In Zoho Invoice, you can track mileage using the following methods:
+
+Q: Can I record a transaction to reclaim VAT while creating a mileage expense in Zoho Invoice?
+A: Yes, you can reclaim VAT on mileage expenses. Please note, however, that HMRC says that VAT can be reclaimed only on the fuel part of the mileage expense.
+
+Q: Reclaim VAT?
+A: is selected.
+
+Q: How do I record employee reimbursements ?
+A: To record an employee reimbursement, please follow the below steps.
+
+Q: How do I record repayment for a loan?
+A: To record a loan repayment, please follow the below steps.
+
+Q: How do I record the commissions I pay to my sales employees?
+A: To record an sales commissions, please follow the below steps.
+
+Q: What is the use of the customer portal?
+A: The customer portal provides a structured way for your customers to stay updated on events related to your transactions.
+
+Q: How can my customers login to the customer portal?
+A: Whenever, you enable portal access, an invitation mail will be triggered automatically from Zoho Invoice. Your customers need to accept this invitation in order to access the portal.
+
+Q: Can I grant portal access to multiple contact persons ( under the same contact ) with the same email id?
+A: No. When a contact has multiple contact person(s), customer portal access can be given to each person ONLY IF :
+
+Q: When I comment on a document and mark the “Display in customer portalâ option, will my customer receive an email?
+A: Yes, they will if youâve enabled this under settings.
+
+Q: My client is trying to enter his Zoho credentials for the portal but it is not going through. Whatâs the issue?
+A: No, your clientâs zoho credentials are not to be used in order to log into the customer portal.
+
+Q: Do my customers need a Zoho Account to access the customer portal?
+A: It is not necessary for your customers to have a Zoho account. Once you send an invitation to your customers to access the portal, upon accepting the invitation they can login to the portal by using the email address with which they were invited.
+
+Q: Can I delete the comments added in the customer portal?
+A: No, you cannot delete comments added in the customer portal.
+
+Q: How do I check if my client has viewed the estimate/invoice I’ve sent him?
+A: You would receive a notification in the bell icon on the top right corner stating that your customer has viewed the invoice/estimate.
+
+Q: Will I be able to change my customer’s email address? Will he now able to view the old invoices in the customer portal?
+A: Yes, you can change the email address of a customer. Send him a portal invitation again
+
+Q: How can my customers pay an invoice via the portal?
+A: In order to pay an invoice, your customer needs to login to the portal. You can find out how your customers can login to the portal
+
+Q: Can I have my customer pay an invoice directly without going through the portal?
+A: Yes! Your customer can simply click on the link received in the email and he would be directed to the portal page. He can pay for the invoice without logging into the portal.
+
+Q: Can my customer download his  “Customer Statementâ from within the customer portal?
+A: The
+
+Q: How can I record a refund for advance payments I’ve received?
+A: Advance payments can be recorded either as can invoice payment or a credit note and both are displayed as unused credits in the contact details page. Both can be applied to invoices and credit notes can be refunded.
+
+Q: How do I receive payments online?
+A: Zoho Invoice supports several online payment gateways that make it easy for you to receive your payments in an instant. When you send out an invoice to your customer, simply enable the payment modes of your choice under the
+
+Q: I have configured a payment gateway in my organization, but they don’t get displayed on the invoices I send to my customers. What do I do?
+A: To add the payment gateway that you’ve configured to receive online payments in your invoice, you need to follow the two steps mentioned below:
+
+Q: How to do I add or delete a payment mode?
+A: To set a payment mode, kindly follow the below mentioned steps:
+
+Q: How can I adjust my invoice total to include shipping charges and miscellaneous adjustments?
+A: Any miscellaneous amount you may want to associate to your estimates or invoices, can be added as
+
+Q: How do I set my invoice due date?
+A: The due date of an invoice can be set during the invoice creation by choosing the payment terms, labelled
+
+Q: How do I send out customized reminders for my invoice payments?
+A: Zoho Invoice offers both automatic and manual reminders,
+
+Q: How can I import and export invoice payments?
+A: Not just Invoice payments, you can import and export any data into and out of Zoho Invoice.
+
+Q: Can my customers edit their credit card details?
+A: Yes, your customers can edit their card details anytime provided you’ve
+
+Q: How can I record multiple invoice payments at once?
+A: In Zoho Invoice, you can record multiple payments associated with a contact in one go.
+
+Q: I would like to charge my clients' credit card. Can I save it in Zoho Invoice?
+A: Yes, you can.
+
+Q: How can I view a payment receipt for an invoice?
+A: Whenever you record a payment for an invoice, a payment receipt is automatically generated. While recording a payment manually, open the desired invoice and click on the
+
+Q: How do I record an advance payment from my customers and apply them to their future invoices?
+A: To record advance payment for your customer:
+
+Q: I have associated a payment gateway to an invoice. My client is unable to find the option to pay for it. What should I do?
+A: When you email an invoice to your client, the invoice PDF is attached to it and a link to view the invoice
+
+Q: My customers are facing a problem while trying to make a payment using PayPal Business. What should I do?
+A: When you select PayPal Business as the payment option on your invoice, your customers will be required to log in to a US-PayPal to make the payment for the invoice i.e. their country must be set to United States in their PayPal account.
+
+Q: Which currency should I choose while setting up Braintree for Zoho Invoice?
+A: While setting up your Braintree account with Zoho Invoice, you should choose the currency that is associated with your merchant account id.
+
+Q: My customers paid through their echeck account in Authorize.net. But it is not reflecting on my Invoices. What should I do?
+A: For payments made through echecks, it usually takes 3-4 business days for the process to be completed. We will record the payment once we receive a notifcation stating the transaction is successful.
+
+Q: How does this Razorpay - Zoho Invoice integration work?
+A: Here is a basic process flow of how the product will work:
+
+Q: How to create a razorpay account?
+A: To create a Razorpay account, please click the link below, to the
+
+Q: How to setup Razorpay?
+A: To set up Razorpay, click the
+
+Q: How do I get my Razorpay API credentials?
+A: Login to Razorpay account and click on
+
+Q: What is the per transaction fee?
+A: For domestic cards, the fees charged is always 2% along with service tax of 15%.
+
+Q: In what frequency the settlement will be made?
+A: Here is a
+
+Q: Does Razorpay offer sandbox environment?
+A: Yes. Sandbox or test account can be used to test your integration without having to actually charge credit cards. The Test Environment is an exact copy of the Production Environment, except credit cards and bank accounts are not actually charged.
+
+Q: What are the payment modes supported by Razorpay? Can I accept reccuring payments too?
+A: Razorpay supports payments through all the major debit and credit cards, UPI Payments, 50+ netbanking banks and popular wallets like : Mobikwik, PayUmoney, FreeCharge, Airtel Money, Ola Money and PayZapp.
+
+Q: Will my customers be prompted for OTP while making auto-recurring transactions?
+A: For auto recurring transactions, your customer will have to go through a Two-Factor-Authentication Process, for the first transaction.
+
+Q: How do I refund a payment?
+A: To refund a payment,
+
+Q: Can I receive payments without activating my account?
+A: No, you cannot receive payments without activating your Razorpay account.
+
+Q: Whom should I contact when I get a query in Razorpay? Zoho Invoice or Razorpay?
+A: Any queries in Razorpay will be addressed by the Zoho support team. For any queries, email us at
+
+Q: Are international credit cards supported?
+A: Yes, Razorpay supports international credit cards.
+
+Q: Is Razorpay PCI compliant?
+A: Yes, it is PCI compliant.
+
+Q: Why should I configure webhooks for Razorpay?
+A: Razorpay supports receiving payments through multiple payment modes. If you have set up Razorpay in Zoho Invoice, your customers can make payments for invoices through the Customer Portal. When the customer clicks the
+
+Q: What is the difference between recurring invoice and auto charge?
+A: If you’re charging your customers on a regular basis for the same set of products or services you offer, you can simplify the process by converting the invoice into a recurring invoice. This will allow you to automatically generate invoices at periodic interval.
+
+Q: How do I change the default payment mode while recording payments for my invoices?
+A: To change your default payment mode:
+
+Q: I want to send an acknowledgement thanking my customers for their payment. How do I do it?
+A: You can send a
+
+Q: How will I know if my client has enabled autocharge through the portal?
+A: Your client can log into the customer portal and enable Auto-charge while making payments for his recurring invoices. Once he does this, a small icon next to the recurring invoices associated with him in Zoho Invoice will indicate that
+
+Q: How can I remove the online payment link from my invoice notification mail?
+A: You can tackle this problem in many ways, depending on how commonly you receive online payments from your customers.
+
+Q: Can I export my payments as PDF files?
+A: Yes, you can. To do this, open a payment you’ve made by simply click on
+
+Q: How can I print a payment receipt?
+A: Log into your
+
+Q: How do I add a new reminder?
+A: A new reminder can be added only for cases based on due date.
+
+Q: How to delete a reminder?
+A: Click on the reminder which needs to be deleted.
+
+Q: How does a expected payment date based reminder work?
+A: Once you set a reminder based on expected payment date, you will receive a reminder from Zoho Invoice reminding you about the payments those are nearing their date or payment dates that has already been crossed.
+
+Q: How do I disable a reminder?
+A: Once you have set up a reminder, you can disable it at any time.
+
+Q: How do I add a new tax rate?
+A: To add a new tax rate:
+
+Q: I wish to delete a tax that is no longer needed. Will it affect my previous transactions?
+A: No, your transactions in the past will not be affected by deleting the tax linked to it. If you feel a tax you created is not of much use for your business, then you can go ahead and delete it without worrying about your previous transactions.
+
+Q: I tried importing an item with a tax name which is similar to the tax I created manually. But instead of replacing the tax name, the tax got duplicated and now I have 2 taxes with the same tax name in the invoice. How do I resolve this?
+A: When importing items, taxes are matched with three properties.
+
+Q: I am not able to add shipping charges while creating an invoice. What should I do?
+A: If your organization is in U.S.A. or Canada edition and you have enabled the integration with
+
+Q: How do I enable the Avalara integration for my organization?
+A: If your organization is in U.S.A. or Canada edition, you can integrate with Avalara which simplifies the process of applying taxes while creating transactions.
+
+Q: I have integrated my organization with Avalara. How can I use my customer’s shipping address for tax calculation?
+A: If your organization is based out of the U.S.A. or Canada and if you’ve integrated with Avalara, you can use your customer’s
+
+Q: When will the VAT summary table be displayed in the Invoice PDFs? What should I do to enable it?
+A: VAT Summary table is an option that is available in the UK edition of Zoho Invoice. It will be shown when a customer’s currency is
+
+Q: How do I manually change the tax amount for an expense?
+A: There might be cases wherein the tax amount in a transaction, say an expense, varies because your vendor calculates the tax applied on the transaction differently.
+
+Q: How do I edit the an existing tax rate?
+A: To edit an existing tax, please follow the steps below:
+
+Q: What is a Value Added Tax?
+A: Taxes that can be reclaimed from the tax authority is called a value added tax.
+
+Q: Do you sell your items at rates inclusive of Tax?
+A: select an option indicating whether you want to sell items at tax inclusive rates, tax exclusive rates, or both.
+
+Q: How can I remove the online payment link from my invoice templates?
+A: You can choose to either retain the URL directing your customers to online payment gateways on your invoice, or remove it in case you’re not going to receive online payments.
+
+Q: How can I change my PDF font?
+A: To select a PDF font that matches the language you’re using Zoho Invoice in,follow the below steps.
+
+Q: I would like to print my invoice in a different size. Can I edit the size of the template so that it can fit on my invoice while printing?
+A: You have an option to choose the size of the paper i.e. you can either choose A4 or Letter. The option of creating a custom margin will also be provided to you wherein you can set the margin as per your requirement. Adjusting the above parameters, you shall be able to fit all your content into one invoice.
+
+Q: How do I get the custom fields to be displayed in the emails sent to my customers?
+A: You can insert custom fields in both the subject and body of your Invoice notification template. Click on the
+
+Q: How do I add my organization’s tax information to my invoice?
+A: To add VAT information to your invoice template:
+
+Q: Is it possible to use two different invoices templates? If so, how do I choose them while sending invoices to my customers?
+A: Yes, you can use multiple invoice templates and select one while generating invoices for your customers.
+
+Q: Can I clone a Template from one module to another?
+A: Yes. You can clone a template of your choice, from one module to another.
+
+Q: I want the contents of an invoice to be displayed in my language. Is it possible?
+A: Yes, you can display the contents including the Item Details, Address, Total Amount, Terms & Conditions etc. in a language of your choice in the PDF template of the transaction.
+
+Q: How do I set a background image/picture in my invoice template?
+A: To set a background image to your invoice template:
+
+Q: When an invoice is paid or voided, I want the status to be displayed on the invoice. What should I do?
+A: There is an option to display the status stamp of your invoices in the PDFs as well as when taking print outs. To enable it, navigate to
+
+Q: How do I edit my email templates?
+A: To edit your email template:
+
+Q: Would I be able to adjust the column width of the item table?
+A: Yes! To do so, please checkout the following steps:
+
+Q: How do I add a signature to my invoice template?
+A: To add a signature to your invoice template:
+
+Q: I don’t want the Balance Due field to appear on my invoice. How do I remove it?
+A: If you donât want the Balance Due field to appear on your invoice, you will have to disable the entire payment details section in the PDF template. At the moment, thereâs no option to disable only the Balance Due field.
+
+Q: How do I resize my organization’s logo?
+A: To resize your organization’s logo:
+
+Q: How do I change the item table’s column headers for my invoice template?
+A: Yes, you can customize the item table’s column headers for your invoice template. To customize:
+
+Q: Where do I view all the written off invoices?
+A: All your written off invoices will be recorded under
+
+Q: How can I compare billed and unbilled hours?
+A: Go to the
+
+Q: How do I include unbilled expenses and projects in an invoice?
+A: When you are invoicing a customer, you can also include unbilled expenses and projects corresponding to that customer in the same invoice.
+
+Q: How do I give new users/supervisors timesheet access?
+A: If you want to give a new user timesheet access, you’ll have to invite the user first.
+
+Q: How can I duplicate the details of an existing project onto a new one?
+A: Project duplication can be done by cloning a project in Zoho Invoice, and this will create a new project retaining the same tasks,users, billing method and customer details from an existing project. The new project can be edited after creation to change some of the details retained if needed.
+
+Q: How do I check the billed/unbilled hours and amount of a task/project?
+A: You can generate a report for the billed/unbilled hours and for billed/unbilled amount for a task in a project. With the help of this report, you can check all the details involved. To generate this report,
+
+Q: Can I log time for other users?
+A: You can log time for other users only if you are an
+
+Q: How do I delete a time entry?
+A: Time entry can be deleted in two ways,
+
+Q: How do I create an invoice for multiple projects?
+A: To create an invoice with multiple projects,
+
+Q: How can I permit my TimesheetStaff to record expenses?
+A: First you will need to create a new role by cloning the existing
+
+Q: How can I maintain a common task list and use it for all the projects?
+A: A common task list cannot be created in Zoho Invoice.
+
+Q: How do I start the timer for a project?
+A: To start the timer for a project, kindly follow the steps mentioned below:
+
+Q: Can I log time in Zoho Invoice using a Chrome extension?
+A: Yes, you can log time in Zoho Invoice using the Timer extension for Chrome.
+
+Q: How to use it?
+A: Click on the Zoho Invoice Timer icon from the Chrome toolbar or press Alt+shift+I to open the extension
+
+Q: Can I clone a particular timesheet entry?
+A: Yes. You can clone a timesheet entry by clicking on the gear-shaped icon, present on the right of the entry, and clicking on
+
+Q: Why are some of my time entries not fetched from Zoho Projects?
+A: Your time entries will not be fetched from Zoho Projects if:
+
+Q: How do I add a Primary Client to fetch timesheets from Zoho Projects?
+A: With the enhanced Zoho Invoice - Zoho Projects integration, only projects that are associated with a
+
+Q: How to view the list of timesheets that are yet to be invoiced?
+A: You can use the filters option to view the list of timesheets that are yet to be invoiced.
+
+Q: Can I change the contact sync type from one module to another?
+A: We restrict users from changing their module for Contacts sync from
+
+Q: How do I enable the Zoho Books/Zoho Invoice module in Zoho CRM?
+A: You can have the Zoho Books/Zoho Invoice as a module in Zoho CRM. For getting this, you must setup two way sync for Contacts, Products.
+
+Q: Can I setup Zoho Invoice - Zoho CRM integration with Free/Standard edition of Zoho CRM?
+A: If you have Free/Standard edition of Zoho CRM, you can only enable Contacts sync through the integration.
+
+Q: How do I import only certain Accounts/Contacts/Accounts and their contacts created in Zoho CRM?
+A: While setting up contact sync, you can choose a view which you would like to import from Zoho CRM into Zoho Invoice. By doing this, you will have only the Accounts/Contacts under that particular view synced into your Zoho Invoice.
+
+Q: Why am I getting the error “User does not have permission to perform this operation while syncing entities”?
+A: You will get this error when,
+
+Q: What is the use of workflow triggers?
+A: Using workflow triggers, you can automate the following functions in Zoho Invoice:
+
+Q: What happens when I use an email address which is not associated with G Suite/Office 365?
+A: When you try to use a different email address, and if this email address is not added as a user in your Zoho Invoice organization, you will be redirected to a page which would look like this:
+
+Q: Can I integrate Zoho Inventory with Zoho Invoice to use the Time Tracking module?
+A: You cannot integrate Zoho Invoice from your Zoho Inventory organization, but you can do the opposite; integrate your Zoho Invoice organization with Zoho Inventory.
+
+Q: Shift + ?
+A: to view the keyboard shortcuts, or access them from the profile section by clicking
+
+Q: Need expert guidance?
+A: Register for a webinar
+
+Q: Who Is a User?
+A: A user is someone who has access to your Zoho Books organization. An organization in Zoho Books can have multiple users.
+
+Q: What Is a role?
+A: A role refers to the level of accessibility that a user can have in an organization. In Zoho Books, we have standard roles like Admin, Staff, Staff for particular customers, and Timesheet staff.
+
+Q: Is this PII?
+A: If the field is a Personally Identifiable Information (PII), then select the appropriate method to store it.
+
+Q: When will custom fields be used?
+A: Letâs say you deal with customers from different industries. To track which industry a particular customer belongs to, you can create a custom field called
+
+Q: When to show this button?
+A: and choose one of the options based on your preference:
+
+Q: Who can access this button?
+A: , select who can view and access the button from any of the following options:
+
+Q: Is your business registered for GST?
+A: option.
+
+Q: Is your organisation MSME registered?
+A: to
+
+Q: When Should TDS be Deducted?
+A: Apply TDS to Transactions in Zoho Books
+
+Q: Is GST TDS applicable?
+A: option will be enabled by default.  Please note that this applies only during customer creation, and not for vendors.
+
+Q: What are SPF and DKIM records?
+A: An
+
+Q: How does Zoho Books track email activity?
+A: Zoho Books uses web beacons (the industry standard followed by email service providers for tracking emails) to track emails sent to your customers.Â
+
+Q: Update with empty value?
+A: .
+
+Q: What is Deluge?
+A: Deluge(Data Enriched Language for the Universal Grid Environment)
+
+Q: Where can the customer view the documents in the Customer Portal?
+A: In the customer portal, the homescreen will display these attached files under
+
+Q: When will the credit limit be considered?
+A: With regards to sales orders, theÂ restriction or warning message will be shown in Zoho Books in the following cases:
+
+Q: When will it not be considered?
+A: The amounts for different sales orders will not be taken into consideration in the following cases:
+
+Q: Would you like to enable Zoho Inventory modules in Zoho Books?
+A: option under Zoho Inventory.
+
+Q: Would you like to enable Composite Items?
+A: .
+
+Q: When is a Delivery ChallanÂ issued?
+A: When the quantity of goods delivered is not known at the time of dispatch. For example, a supply of liquid gas.
+
+Q: When is this useful?
+A: Let’s say you have created a quote for your customer. Once your customer accepts the quote, you might want to convert it into a sales order confirming the items to be sold, the delivery method and other necessary details.
+
+Q: When will this be useful?
+A: Let’s say you have created a sales order for the following quantities of items:
+
+Q: Do you want to cancel items that you have already invoiced from your sales order?
+A: Learn more
+
+Q: What is a Bill of Supply?
+A: Â
+
+Q: When is a Bill of Supply issued?
+A: Enabling Bill of Supply.
+
+Q: Do you want to include the payment receipt along with the Thank You Note?
+A: The payment receipt containing the payment details is also sent along with the Thank You note when a customer pays for an invoice.
+
+Q: What can you do?
+A: CP1003
+
+Q: How does a recurring invoice work?
+A: The workflow of an invoice in Zoho Books is as follows:
+
+Q: How to Adjust Base Currency?
+A: To adjust the base currency in Zoho Books, navigate to
+
+Q: What are Sub-Accounts?
+A: Sub-accounts are child accounts created under a parent account. It helps to track the income and expense(s) of the parent account effectively.
+
+Q: When do I use Sub-Accounts?
+A: Letâs say, you wish to track all your travel expenses and you create an Expense account as Travel. You can create sub-accounts under the parent account as Lodging, Tickets, Cab charges etc. The creation of sub-accounts also helps you to view certain Reports in detail through drill down of the Report.
+
+Q: Is this table mandatory?
+A: Click
+
+Q: When is the last date to file GSTR-1?
+A: The last date to file your GSTR-1 is based on your filing period and turnover.
+
+Q: How do I file a GSTR-1 return?
+A: Filing GSTR-1 Through Zoho Books
+
+Q: How do I reconcile GSTR-2 through Zoho Books?
+A: Pull Transactions from GSTR-2A
+
+Q: What went wrong?
+A: What can you do
+
+Q: ?
+A: CP1003
+
+Q: Have you registered your current account for API Banking on YES Bank’s portal?
+A: option.
+
+Q: How does a payment link work?
+A: A Payment link in Zoho Books can be created easily by selecting a customer and filling in a few details such as the amount you’re requesting and the link’s expiration date. You can then share this payment link with your customer through email and SMS. Your customers can pay you securely via the integrated payment gateway, and this payment will be recorded in the Payments Received module automatically. This payment can be applied to that customer’s invoice(s) later.
+
+Q: How is a payment link different from a retainer invoice?
+A: A retainer invoice is a document that is created specifically to collect an advance amount from the customer, which can later be applied to an invoice. Whereas, a payment link is created for collecting any miscellaneous amount, not just an advance for an invoice. Moreover, unlike retainer invoices, you do not need a document per se to collect amount using payment links. You can instead share the links directly to customers and receive payments quickly.
+
+Q: What is anÂ e-Way Bill?
+A: In the GST regime, an
+
+Q: When is an e-Way Bill Necessary (or Unnecessary)?
+A: e-Way Bills
+
+Q: Is e-Invoicing necessary for your business?
+A: Starting 1 August 2023, the Government of India has mandated e-Invoicing for businesses and corporations that have an annual aggregate turnover of â¹5 crores or more.
+
+Q: How does e-Invoicing work in Zoho Books?
+A: e-Invoicing in Zoho Books
+
+Q: Need Assistance?
+A: section.
+
+Q: Which module needs to be synchronized with Zoho Books customer?
+A: Select the module for which you wish to set up synchronization. It can be contacts, companies or a combination of both.
+
+Q: Include contacts which are not associated with any companies?
+A: Select this option if you wish to associate your contact with the companies you’ve created or imported in Bigin.
+
+Q: Which record needs to be synchronized?
+A: You can choose the products you wish to synchronize. For example, it can be the recently created, recently modified,etc.
+
+Q: How do you resolve it?
+A: Projects could not be fetched.
+
+Q: Have a different email address?
+A: Integrating Microsoft 365 with Zoho Books account
+
+Q: What are the benefits of this feature?
+A: Changing your integrated email address
+
+Q: Will you be the sole user of Zoho Books?
+A: Skip this section and go to the Add bank or credit card account section
+
+Q: Want to import the bills and receipts?
+A: Import your bills
+
+Q: Do you have recurring invoices in Wave where you were using the card information stored in Stripe to collect payments automatically?
+A: You can import the card profiles easily into Zoho Books and set up recurring invoices in auto-pilot mode.
+
+Q: Hi
+A: Hello! How can I assist you today?
+
+Q: Hello
+A: Hi there! What can I do for you?
+
+Q: How can I help you?
+A: I'm here to assist you with any questions or issues you might have.
+
+Q: What can you do?
+A: I can help answer your questions, provide information, and guide you through various processes.
+
+Q: Thank you
+A: You're welcome! Feel free to ask if you need more help.
+
+Q: How do I get started?
+A: Let's begin by understanding what you need help with. How can I assist you?
+
+Q:How to Use Zoho Books Invoices
+Creating an Invoice 1. Go to **Sales → Invoices**. 2. Click **+ New** in the top right corner. 3. Fill in details like customer name, items, taxes, and payment terms. 4. Save and send the invoice to your customer.
+
+Q: Editing an Invoice
+1. Go to **Sales → Invoices**. 2. Select the invoice you want to edit. 3. Click **Edit** and make the necessary changes. 4. Save the updated invoice.
+
+Q: Sending an Invoice
+1. Go to **Sales → Invoices**. 2. Select the invoice you want to send. 3. Click **Mail / SMS** and choose the method (email, SMS, or snail mail). 4. Send the invoice to your customer.
+
+Q: Recording Payments
+Online Payments 1. Integrate Zoho Books with a payment gateway (e.g., PayPal, Razorpay). 2. When creating an invoice, select the preferred payment gateway. 3. Customers can pay via email, invoice link, or Customer Portal.
+
+Q: Charging a Customer’s Card
+1. Go to **Sales → Invoices**. 2. Select the invoice and click **Record Payment > Charge Customer**. 3. Enter the amount and payment gateway details. 4. Process the payment.
+
+Q: Recording Offline Payments
+1. Go to **Sales → Invoices**. 2. Select the invoice and click **Record Payment > Record Offline Payment**. 3. Enter payment details (amount received, date, deposit account). 4. Save the payment.
+
+Q:What is a Bill of Supply?
 A Bill of Supply is issued by GST-registered businesses for exempted goods or under the Composition Scheme.
-#How to Create a Bill of Supply
-1. Go to **Settings > Preferences > General** and enable the Bill of Supply option.
-2. Go to **Sales > Invoices > New Bill of Supply**.
-3. Add customer details and other necessary information.
-4. Save and send the Bill of Supply.
-# Payments Received
-1. View payments received under **Sales > Payments Received**.
-2. Edit or delete payments if needed.
-3. Add custom fields for additional details.
-# Exporting and Bulk Actions
-1. **Export Invoices**: Export invoices in CSV, XLS, or XLSX formats.
-2. **Bulk Update**: Update multiple invoices at once.
-3. **Download as ZIP**: Download multiple invoices as individual PDFs in a ZIP file.
-# Additional Features
-1. **Discounts**: Apply discounts at the item level or invoice level.
-2. **Shipping Charges and Adjustments**: Add these below the item table.
-3. **Clone Invoices**: Duplicate existing invoices for similar transactions.
-4. **Attach Files**: Attach up to 5 files (5MB each) to invoices.
-5. **Void or Write Off Invoices**: Void invoices to remove them from reports or write off unpaid invoices.
-# 1. Basics of Invoicing
-# What is an Invoice?
+
+Q:How to Create a Bill of Supply
+1. Go to **Settings > Preferences > General** and enable the Bill of Supply option. 2. Go to **Sales > Invoices > New Bill of Supply**. 3. Add customer details and other necessary information. 4. Save and send the Bill of Supply.
+
+Q: Payments Received
+1. View payments received under **Sales > Payments Received**. 2. Edit or delete payments if needed. 3. Add custom fields for additional details.
+
+Q: Exporting and Bulk Actions
+1. **Export Invoices**: Export invoices in CSV, XLS, or XLSX formats. 2. **Bulk Update**: Update multiple invoices at once. 3. **Download as ZIP**: Download multiple invoices as individual PDFs in a ZIP file.
+
+Q: Additional Features
+1. **Discounts**: Apply discounts at the item level or invoice level. 2. **Shipping Charges and Adjustments**: Add these below the item table. 3. **Clone Invoices**: Duplicate existing invoices for similar transactions. 4. **Attach Files**: Attach up to 5 files (5MB each) to invoices. 5. **Void or Write Off Invoices**: Void invoices to remove them from reports or write off unpaid invoices.
+
+Q: What is an Invoice?
 An invoice is a document sent by a seller to a buyer requesting payment for goods or services provided. It includes details like item descriptions, quantities, prices, taxes, and payment terms.
-# Purpose of an Invoice
-To request payment from a customer.
-To maintain a record of sales and transactions.
-To track receivables and manage cash flow.
-To ensure compliance with tax laws (e.g., GST, VAT).
-# Difference Between Invoice and Bill
-Invoice : Sent by the seller to the buyer requesting payment.
-Bill : Received by the buyer from the seller and represents an amount owed.
-# Common Terms Used in Invoicing
-Due Date : The deadline for payment.
-PO Number : Purchase Order number, used for tracking orders.
-Line Items : Individual products or services listed on the invoice.
-Tax : Applicable taxes like GST or VAT.
-Subtotal : Total cost before taxes or discounts.
-Balance Due : Amount remaining to be paid.
-# Types of Invoices
-Proforma Invoice : A preliminary invoice sent before delivery.
-Recurring Invoice : Automatically generated for subscriptions or repeat services.
-Credit Note : Issued to adjust overcharged amounts or provide refunds.
-# 2. Zoho Books Invoicing Features
-# How to Create an Invoice in Zoho Books
-Log in to Zoho Books.
-Go to Invoices > Create Invoice .
-Enter customer details, add line items, and apply taxes.
-Set payment terms (e.g., due date, discounts).
-Save and send the invoice via email or share it as a link.
-# Customizing Invoice Templates
-Choose from pre-designed templates.
-Add your logo, brand colors, and custom fields.
-Modify terms and conditions.
-# Adding Tax Rules and Applying GST/VAT
-Set up tax rates under Settings > Taxes .
-Apply GST/VAT during invoice creation based on customer location.
-# Setting Up Recurring Invoices
-Go to Invoices > Recurring Invoices .
-Create a template with frequency (e.g., monthly, quarterly).
-Set start and end dates.
-# Multi-Currency Support
-Enable multi-currency under Settings > Preferences .
-Select the customer’s currency while creating an invoice.
-# Payment Reminders and Automation
-Automate reminders for overdue invoices.
-Customize reminder emails with due dates and payment links.
-# Attaching Documents to Invoices
+
+Q: Purpose of an Invoice
+To request payment from a customer. To maintain a record of sales and transactions. To track receivables and manage cash flow. To ensure compliance with tax laws (e.g., GST, VAT).
+
+Q: Difference Between Invoice and Bill
+Invoice : Sent by the seller to the buyer requesting payment. Bill : Received by the buyer from the seller and represents an amount owed.
+
+Q: Common Terms Used in Invoicing
+Due Date : The deadline for payment. PO Number : Purchase Order number, used for tracking orders. Line Items : Individual products or services listed on the invoice. Tax : Applicable taxes like GST or VAT. Subtotal : Total cost before taxes or discounts. Balance Due : Amount remaining to be paid.
+
+Q: Types of Invoices
+Proforma Invoice : A preliminary invoice sent before delivery. Recurring Invoice : Automatically generated for subscriptions or repeat services. Credit Note : Issued to adjust overcharged amounts or provide refunds.
+
+Q: How to Create an Invoice in Zoho Books
+Log in to Zoho Books. Go to Invoices > Create Invoice . Enter customer details, add line items, and apply taxes. Set payment terms (e.g., due date, discounts). Save and send the invoice via email or share it as a link.
+
+Q: Customizing Invoice Templates
+Choose from pre-designed templates. Add your logo, brand colors, and custom fields. Modify terms and conditions.
+
+Q: Adding Tax Rules and Applying GST/VAT
+Set up tax rates under Settings > Taxes . Apply GST/VAT during invoice creation based on customer location.
+
+Q: Setting Up Recurring Invoices
+Go to Invoices > Recurring Invoices . Create a template with frequency (e.g., monthly, quarterly). Set start and end dates.
+
+Q: Multi-Currency Support
+Enable multi-currency under Settings > Preferences . Select the customer’s currency while creating an invoice.
+
+Q: Payment Reminders and Automation
+Automate reminders for overdue invoices. Customize reminder emails with due dates and payment links.
+
+Q: Attaching Documents to Invoices
 Attach files like contracts or receipts directly to the invoice.
-# Accepting Online Payments
-Integrate payment gateways like PayPal, Stripe, Razorpay, etc.
-Customers can pay directly through the invoice.
-# Linking Invoices to Sales Orders or Estimates
+
+Q: Accepting Online Payments
+Integrate payment gateways like PayPal, Stripe, Razorpay, etc. Customers can pay directly through the invoice.
+
+Q: Linking Invoices to Sales Orders or Estimates
 Convert estimates or sales orders into invoices with one click.
-# 3. User Personas
-Small & Medium Businesses (SMBs)
-Creating Branded Invoices : Use custom templates to reflect your brand.
-Automating Invoicing and Reminders : Save time with automated workflows.
-Tracking Payments and Receivables : Monitor unpaid invoices in real-time.
-Managing Cash Flow : Use insights to analyze income trends.
- Accountants
-Bulk Import/Export of Invoices : Manage large datasets efficiently.
-Reconciliation of Invoice Payments : Match payments with bank statements.
-Compliance with Tax Regulations : Ensure GST/VAT accuracy.
-Managing Multiple Client Accounts : Organize invoices by client for easy access.
-# 4. Zoho Books Invoice Pricing
-# Free Plan
-Limited to 50 invoices/month.
-Basic features like invoicing and payment tracking.
-Ideal for freelancers or startups.
-# Paid Plans
-Standard Plan : $15/month
-Up to 500 invoices/month.
-Includes automation and reporting.
-Professional Plan : $30/month
-Unlimited invoices.
-Advanced features like workflow automation and client portal.
-Enterprise Plan : Custom pricing
-For businesses with complex needs (e.g., multiple users, integrations).
-# Invoice-Related Limits per Plan
-Free: 50 invoices, 5 clients.
-Standard: 500 invoices, 10 clients.
-Professional: Unlimited invoices, unlimited clients.
-# 5. Premium Features Related to Invoicing
-# Workflow Automation for Invoice Approval
-Set up approval workflows for large invoices.
-Notify managers for review before sending.
-# Advanced Analytics and Reporting
+
+Q: 3. User Personas
+Small & Medium Businesses (SMBs) Creating Branded Invoices : Use custom templates to reflect your brand. Automating Invoicing and Reminders : Save time with automated workflows. Tracking Payments and Receivables : Monitor unpaid invoices in real-time. Managing Cash Flow : Use insights to analyze income trends. Accountants Bulk Import/Export of Invoices : Manage large datasets efficiently. Reconciliation of Invoice Payments : Match payments with bank statements. Compliance with Tax Regulations : Ensure GST/VAT accuracy. Managing Multiple Client Accounts : Organize invoices by client for easy access.
+
+Q: Free Plan
+Limited to 50 invoices/month. Basic features like invoicing and payment tracking. Ideal for freelancers or startups.
+
+Q: Paid Plans
+Standard Plan : $15/month Up to 500 invoices/month. Includes automation and reporting. Professional Plan : $30/month Unlimited invoices. Advanced features like workflow automation and client portal. Enterprise Plan : Custom pricing For businesses with complex needs (e.g., multiple users, integrations).
+
+Q: Invoice-Related Limits per Plan
+Free: 50 invoices, 5 clients. Standard: 500 invoices, 10 clients. Professional: Unlimited invoices, unlimited clients.
+
+Q: Workflow Automation for Invoice Approval
+Set up approval workflows for large invoices. Notify managers for review before sending.
+
+Q: Advanced Analytics and Reporting
 Generate reports on outstanding invoices, payment trends, and cash flow.
-# Client Portal for Real-Time Sharing
-Share invoices securely with clients.
-Allow clients to view and pay invoices online.
-# Integration with Payment Gateways
+
+Q: Client Portal for Real-Time Sharing
+Share invoices securely with clients. Allow clients to view and pay invoices online.
+
+Q: Integration with Payment Gateways
 Connect with popular gateways like PayPal, Stripe, and Razorpay.
-# Invoice Translation/Localization
+
+Q: Invoice Translation/Localization
 Translate invoices into multiple languages for international clients.
-# Time Tracking to Invoice Billable Hours
+
+Q: Time Tracking to Invoice Billable Hours
 Track hours worked and convert them into invoices.
-# 6. Use Cases
-# Freelancers Invoicing Clients for Services
+
+Q: Freelancers Invoicing Clients for Services
 Use simple templates and accept online payments.
-# SMBs Sending Product-Based Invoices
+
+Q: SMBs Sending Product-Based Invoices
 Add product details, taxes, and shipping costs.
-# Businesses Issuing Recurring Invoices
+
+Q: Businesses Issuing Recurring Invoices
 Automate invoices for subscription-based services.
-# Companies Generating GST-Compliant Invoices
+
+Q: Companies Generating GST-Compliant Invoices
 Enable GST settings and generate compliant invoices.
-# Accountants Handling Invoices for Multiple Clients
+
+Q: Accountants Handling Invoices for Multiple Clients
 Use bulk tools and organize data by client.
-# Handling Overdue Invoices
+
+Q: Handling Overdue Invoices
 Send automated reminders and follow up manually if needed.
-# Invoicing International Clients
+
+Q: Invoicing International Clients
 Use multi-currency support and localization features.
-# 7. Tips and Troubleshooting
-# What to Do If a Client Hasn’t Paid the Invoice
-Send polite reminders with payment links.
-Offer payment plans or discounts for early settlement.
-# How to Cancel or Void an Invoice
+
+Q: What to Do If a Client Hasn’t Paid the Invoice
+Send polite reminders with payment links. Offer payment plans or discounts for early settlement.
+
+Q: How to Cancel or Void an Invoice
 Go to the invoice, click More > Void .
-# How to Edit Sent Invoices
-For minor changes, edit and resend.
-For major changes, void the invoice and create a new one.
-# How to Resend an Invoice
+
+Q: How to Edit Sent Invoices
+For minor changes, edit and resend. For major changes, void the invoice and create a new one.
+
+Q: How to Resend an Invoice
 Open the invoice, click Resend , and choose the delivery method.
-# How to Track Invoice Views and Delivery Status
+
+Q: How to Track Invoice Views and Delivery Status
 Check the status under the invoice details (e.g., viewed, delivered).
-# Troubleshooting Payment Failures
-Verify payment gateway settings.
-Check for incorrect customer details.
-# Ensuring Invoice Compliance
-Regularly update tax rules.
-Use built-in compliance checks for GST/VAT.
+
+Q: Troubleshooting Payment Failures
+Verify payment gateway settings. Check for incorrect customer details.
+
+Q: Ensuring Invoice Compliance
+Regularly update tax rules. Use built-in compliance checks for GST/VAT.
+

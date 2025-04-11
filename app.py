@@ -74,7 +74,16 @@
 
 from flask import Flask, request, jsonify
 from sentence_transformers import SentenceTransformer, util
+from threading import Lock
+import torch
 import os
+import re
+import logging
+from nltk.corpus import wordnet
+import nltk
+
+# Ensure NLTK resources are available
+nltk.download('wordnet')
 
 app = Flask(__name__)
 
@@ -93,18 +102,30 @@ def load_content():
     sections = content.split("\n# ")
     sections = [sections[0]] + ["# " + section.strip() for section in sections[1:]]
 
-    # Debugging: Print each section to verify splitting
-    for i, section in enumerate(sections):
-        print(f"Section {i + 1}:\n{section[:100]}...\n")
+def expand_query(query):
+    """Expand the query with synonyms to improve matching."""
+    words = query.split()
+    expanded_words = set(words)
+    for word in words:
+        for synset in wordnet.synsets(word):
+            for lemma in synset.lemmas():
+                expanded_words.add(lemma.name())
+    expanded_query = ' '.join(expanded_words)
+    return expanded_query
 
-    return sections
+# Precompute embeddings
+try:
+    file_path = os.getenv("QA_FILE_PATH", "content.txt")
+    content_sections = load_qa_pairs(file_path)
+    questions = [q.strip() for q, a in content_sections]
+    answers = [a.strip() for q, a in content_sections]
+    content_embeddings = model.encode(questions, convert_to_tensor=True, normalize_embeddings=True)
+    logging.info("Q&A pairs and embeddings loaded successfully.")
+except Exception as e:
+    logging.error("Initialization Error: %s", str(e))
+    exit(1)
 
-# Initialize the model and content embeddings
-model = SentenceTransformer("all-MiniLM-L6-v2")
-content_sections = load_content()
-content_embeddings = model.encode(content_sections)
-
-@app.route('/query', methods=['POST'])
+@app.route("/query", methods=["POST"])
 def query():
     # Step 2: Validate Input
     user_input = request.json.get("query")
@@ -118,11 +139,9 @@ def query():
     query_embedding = model.encode(user_input)
     similarities = util.cos_sim(query_embedding, content_embeddings)[0]
 
-    # Debugging: Log similarity scores and matched sections
-    print(f"User Query: {user_input}")
-    print("Similarity Scores:", similarities)
-    most_relevant_idx = similarities.argmax().item()
-    print(f"Most Relevant Section (Index {most_relevant_idx}): {content_sections[most_relevant_idx][:200]}...")
+    with lock:
+        query_embedding = model.encode(expanded_user_input, convert_to_tensor=True, normalize_embeddings=True)
+        similarities = util.cos_sim(query_embedding, content_embeddings)[0]
 
     # Step 4: Check Relevance Threshold
     if similarities[most_relevant_idx] < 0.4:  # Adjust threshold as needed
@@ -149,11 +168,5 @@ def summarize_response(text):
     return text
 
 if __name__ == '__main__':
-    # Ensure content.txt exists
-    if not os.path.exists("content.txt"):
-        print("Error: 'content.txt' file not found. Please create it in the same directory as app.py.")
-        exit(1)
-
-    # Start the Flask server
-    print("Starting Flask server...")
-    app.run(debug=True)
+    logging.info("Starting AI Assistant API...")
+    app.run(host="0.0.0.0", port=5000, debug=True)
