@@ -7,5 +7,3 @@ pyttsx3
 nltk
 Pillow
 pyaudio
-flask 
-sentence-transformers
